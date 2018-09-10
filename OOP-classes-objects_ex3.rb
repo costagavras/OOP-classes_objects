@@ -30,9 +30,12 @@ class Player
       @health_points = health_points
   end
 
+
   def lives=(lives)
       @lives = lives
   end
+
+#Instance methods
 
   def level_up
     return @lives += 1
